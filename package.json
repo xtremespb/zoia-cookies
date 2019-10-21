@@ -1,15 +1,29 @@
 {
-    "name": "zoia-cookies",
-    "version": "1.0",
-    "author": "Michael Matveev",
-    "description": "A fork of Cookies.js with additional functions",
-    "homepage": "https://github.com/xtremespb/zoia-cookies.git",
-    "license": "MIT",
-    "keywords": ["cookies", "client", "browser"],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/xtremespb/zoia-cookies.git"
-    },
-    "main": "./src/cookies.js",
-    "files": ["src/*", "README.md", "LICENSE"]
+  "name": "zoia-cookies",
+  "version": "1.0.1",
+  "author": "Michael Matveev",
+  "description": "A fork of Cookies.js with additional functions",
+  "homepage": "https://github.com/xtremespb/zoia-cookies.git",
+  "license": "MIT",
+  "keywords": [
+    "cookies",
+    "client",
+    "browser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtremespb/zoia-cookies.git"
+  },
+  "main": "./src/cookies.js",
+  "files": [
+    "src/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "bugs": {
+    "url": "https://github.com/xtremespb/zoia-cookies/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

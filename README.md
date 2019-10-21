@@ -2,7 +2,7 @@
 
 zoia-cookies is a small client-side javascript library that makes managing cookies easy.
 
-It is a fork of Cookies.js originally developed by Scott Hamper (https://github.com/ScottHamper/Cookies).
+It is a fork of Cookies.js originally developed by Scott Hamper (<https://github.com/ScottHamper/Cookies>).
 
 [Features](#features)<br>
 [Browser Compatibility](#browser-compatibility)<br>
@@ -17,7 +17,7 @@ It is a fork of Cookies.js originally developed by Scott Hamper (https://github.
 - Cross browser
 - Lightweight
 - No dependencies
-- Public domain
+- MIT License
 - Supports AMD / CommonJS loaders
 
 ### Node Package Manager
@@ -63,11 +63,11 @@ _Alias: Cookies(key, value [, options])_
 
 Sets a cookie in the document. If the cookie does not already exist, it will be created. Returns the `Cookies` object.
 
-```
-Option | Description                                                                                      | Default
-```
-
----------: | ------------------------------------------------------------------------------------------------ | ----------- _path_ | A string value of the path of the cookie | `"/"` _domain_ | A string value of the domain of the cookie | `undefined` _expires_ | A number (of seconds), a date parsable string, or a `Date` object of when the cookie will expire | `undefined` _secure_ | A boolean value of whether or not the cookie should only be available over SSL | `false` _sameSite_ | Use "SameSite" cookie attribute? Value is one of: undefined, strict, lax | `undefined`
+* _path_: a string value of the path of the cookie (default: "/")
+* _domain_: a string value of the domain of the cookie (default: undefined)
+* _expires_: a number (of seconds), a date parsable string, or a `Date` object of when the cookie will expire (default: undefined)
+* _secure_: a boolean value of whether or not the cookie should only be available over SSL (default: false)
+* _sameSite_: use "SameSite" cookie attribute? Value is one of: undefined, strict, lax (default: undefined)
 
 A default value for any option may be set in the `Cookies.defaults` object.
 
