@@ -1,7 +1,8 @@
 # zoia-cookies
 
 zoia-cookies is a small client-side javascript library that makes managing cookies easy.
-It is a fork of Cookies.js - 1.2.3 by https://github.com/ScottHamper/Cookies by Michael Matveev, (c) 2019.
+
+It is a fork of Cookies.js originally developed by Scott Hamper (https://github.com/ScottHamper/Cookies).
 
 [Features](#features)<br>
 [Browser Compatibility](#browser-compatibility)<br>
